@@ -10,17 +10,18 @@
     <title>Dark Admin Dashboard Template</title>
 </head>
 <body>
+    <input type="checkbox" id="menu-toggle">
     <div class="sidebar">
         <div class="brand">
-            <span class="lab la-affiliatetheme"></span>
+            <span class="las la-mug-hot"></span>
             <h2>Admin Template</h2>
         </div>
         <div class="sidemenu">
             <div class="side-user">
-                <div class="side-img" style="background-image: url(img/user.jpg);"></div>
+                <div class="side-img" style="background-image: url(img/user1.png);"></div>
                 <div class="user">
                     <small>Camila Nunes</small>       
-                    <p>Software Developer</p>
+                    <p>FrontEnd Developer</p>
                 </div>
             </div>
             <ul>
@@ -50,7 +51,7 @@
                 </li>
                 <li>
                     <a href="">
-                        <span class="las la-users"></span>
+                        <span class="las la-address-book"></span>
                         <span>Contacts</span>
                     </a>
                 </li>
@@ -89,7 +90,7 @@
     </div>
     <div class="main-content">
         <header>
-            <label for="" class="menu-toggle">
+            <label for="menu-toggle" class="menu-toggler">
                 <span class="las la-bars"></span>
             </label>    
             <div class="search">
@@ -113,11 +114,11 @@
                         <small>Total Followers</small>
                     </div>
                     <div class="card-images">
-                        <div style="background-image: url(img/user.jpg);"></div>
-                        <div style="background-image: url(img/user.jpg);"></div>
-                        <div style="background-image: url(img/user.jpg);"></div>
-                        <div style="background-image: url(img/user.jpg);"></div>
-                        <div style="background-image: url(img/user.jpg);"></div>
+                        <div style="background-image: url(img/user1.png);"></div>
+                        <div style="background-image: url(img/user1.png);"></div>
+                        <div style="background-image: url(img/user1.png);"></div>
+                        <div style="background-image: url(img/user1.png);"></div>
+                        <div style="background-image: url(img/user1.png);"></div>
                     </div>
                 </div>
                 <div class="card">
@@ -129,11 +130,11 @@
                         <small>Total Likes</small>
                     </div>
                     <div class="card-images">
-                        <div style="background-image: url(img/user.jpg);"></div>
-                        <div style="background-image: url(img/user.jpg);"></div>
-                        <div style="background-image: url(img/user.jpg);"></div>
-                        <div style="background-image: url(img/user.jpg);"></div>
-                        <div style="background-image: url(img/user.jpg);"></div>
+                        <div style="background-image: url(img/user1.png);"></div>
+                        <div style="background-image: url(img/user1.png);"></div>
+                        <div style="background-image: url(img/user1.png);"></div>
+                        <div style="background-image: url(img/user1.png);"></div>
+                        <div style="background-image: url(img/user1.png);"></div>
                     </div>
                 </div>
                 <div class="card">
@@ -145,16 +146,29 @@
                         <small>Total Comments</small>
                     </div>
                     <div class="card-images">
-                        <div style="background-image: url(img/user.jpg);"></div>
-                        <div style="background-image: url(img/user.jpg);"></div>
-                        <div style="background-image: url(img/user.jpg);"></div>
-                        <div style="background-image: url(img/user.jpg);"></div>
-                        <div style="background-image: url(img/user.jpg);"></div>
+                        <div style="background-image: url(img/user1.png);"></div>
+                        <div style="background-image: url(img/user1.png);"></div>
+                        <div style="background-image: url(img/user1.png);"></div>
+                        <div style="background-image: url(img/user1.png);"></div>
+                        <div style="background-image: url(img/user1.png);"></div>
                     </div>
                 </div>
             </div>
             <div class="chart-grid">
-                <div id="myfirstchart" style="height: 250px;"></div>
+                <div class="chart-follow">
+                    <div class="chart-head">
+                        <h3>Followers</h3>
+                        <span class="las la-cog"></span>
+                    </div>
+                    <div id="myfirstchart" style="height: 350px;"></div>
+                </div>
+                <div class="chart-sales">
+                    <div class="chart-head">
+                        <h3>Sales</h3>
+                        <span class="las la-ellipsis-h"></span>
+                    </div>
+                    <div id="donut-example" style="height: 350px;"></div>
+                </div>
             </div>
         </main>
     </div>
