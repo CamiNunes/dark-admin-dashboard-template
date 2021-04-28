@@ -1,7 +1,7 @@
-# Template Admin Dark
+# Dashboard Template Admin Dark
 
 <h1 align="center">
-    <a href="">🔗 Template Admin Dark</a>
+    <a href="">🔗 Dashboard  Template Admin Dark</a>
 </h1>
 <p align="center">🚀 Um projeto com intuito de montar um portfóliode frontend. Esse Template está sendo construindo apenas com HTML5, CSS3 e Javascript.</p>
 
