@@ -16,6 +16,7 @@
 - [x] Menu no Canto Direito Superior
 - [x] Cartões
 - [x] Inclusão dos Gárficos
+- [ ] Responsividade
 
 # Imagens do Projeto(Ainda em construção... 🚧🚧)
 
