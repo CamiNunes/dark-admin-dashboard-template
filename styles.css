@@ -296,3 +296,100 @@ main{
     border-bottom: 1px solid #4d4a4a;
     margin-bottom: 1rem;
 }
+
+.close-mobile-menu{
+    position: fixed;    
+    display: block;
+    height: 100%;
+    width: calc(100% - 280px);
+    right: -100%;
+    top: 0;
+    bottom: 0;
+    color: transparent;
+    z-index: 100;
+    transition: right 300ms;
+}
+
+@media only screen and (max-width: 1124px){    
+    #menu-toggle ~ .sidebar .brand h2{
+        display: none;
+    }
+    
+    #menu-toggle ~ .sidebar .side-img{
+       height: 50px;
+       width: 50px;
+    }
+    
+    #menu-toggle ~ .sidebar .user{
+        display: none;
+    }
+    
+    #menu-toggle ~ .sidebar li a span:last-child{
+        display: none;
+    }
+    
+    #menu-toggle ~ .sidebar{
+        width: 65px;
+    }
+    
+    #menu-toggle ~ .main-content header{
+        left: calc(65px + 1rem);
+    }
+    
+    #menu-toggle ~ .main-content{
+        margin: 65px;
+    }    
+
+
+    #menu-toggle{
+        display: block;
+    }
+    
+    #menu-toggle:checked ~ .sidebar .brand h2{
+        display: block;
+    }
+    
+    #menu-toggle:checked ~ .sidebar .side-img{
+       height: 120px;
+       width: 120px;
+    }
+    
+    #menu-toggle:checked ~ .sidebar .user{
+        display: block;
+    }
+    
+    #menu-toggle:checked ~ .sidebar li a span:last-child{
+        display: inline-block;
+    }
+    
+    #menu-toggle:checked ~ .sidebar{
+        width: 280px;
+        z-index: 100;
+    }
+
+    #menu-toggle:checked ~ .close-mobile-menu{
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 845px){ 
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .chart-grid{
+        grid-template-columns: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .search{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .cards{
+        grid-template-columns:100%;
+    }
+}
